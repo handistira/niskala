@@ -3,5 +3,15 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "npm install;npx lerna bootstrap",
+    "start": "npx lerna run --parallel start"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "next-transpile-modules": "6.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }
