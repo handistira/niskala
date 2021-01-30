@@ -1,5 +1,5 @@
 {
-  "name": "navigation",
+  "name": "shared",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "shared": "^1.0.0"
-  }
+  "license": "MIT"
 }
