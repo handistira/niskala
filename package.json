@@ -2,11 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "npm-run-all2": "5.0.2"
   },
   "scripts": {
     "bootstrap": "npm install;npx lerna bootstrap",
-    "start": "npx lerna run --parallel start"
+    "start": "run-p --print-label package:*",
+    "build": "lerna run --parallel build"
   },
   "dependencies": {
     "next": "10.0.6",
