@@ -8,6 +8,8 @@
   "scripts": {
     "bootstrap": "npm install;npx lerna bootstrap",
     "start": "run-p --print-label package:*",
+    "package:header": "lerna run --scope header --stream dev",
+    "package:shared": "lerna run --scope shared --stream dev",
     "build": "lerna run --parallel build"
   },
   "dependencies": {
