@@ -19,4 +19,4 @@ export default function Contents() {
         </div>
     )
 }
-export default Footer
+export default Contents
