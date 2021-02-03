@@ -1,6 +1,7 @@
 import React from 'react'
+import Footer from './footer'
 
-export default function contents() {
+export default function Contents() {
     return (
         <div >
             <h1 className="text-7xl">Lorem Ipsum</h1>
@@ -18,3 +19,4 @@ export default function contents() {
         </div>
     )
 }
+export default Footer

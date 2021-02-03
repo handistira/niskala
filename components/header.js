@@ -1,5 +1,5 @@
 import React from 'react'
-export default function header() {
+export default function Header() {
     return (
         <div>
             <div>
@@ -13,3 +13,4 @@ export default function header() {
         </div>
     )
 }
+export default Header

@@ -16,3 +16,4 @@ export default function Navbar() {
     </div>
   )
 }
+export default Navbar
